@@ -1,0 +1,679 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*custom styles*/
+body{
+  font-size: 12px;
+}
+#main_header 
+{
+    text-align: center;
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid #FFAE00;
+}
+
+.headerLeftDiv
+{
+    width: 20%;
+    float: left;
+}
+
+@media screen and (max-width: 900px) {
+  .headerLeftDiv{
+    width: 30%;
+  }
+
+}
+
+#header_image
+{
+  float: left;
+  margin-top: 8px;
+  margin-left: 30px;
+  height: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-right: 20px;
+  float: right;
+}
+
+li {
+  float: left;
+  padding: 0px 5px;
+}
+
+.navigatorId {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.navigatorId:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.navigatorId:active {
+  color: red;
+  cursor: pointer;
+}
+
+#facebook_icon
+{
+  color: #1b1b1d;
+  font-size: 26px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+}
+
+#google_playstore_icon
+{
+  font-size: 22px;
+  margin-left: -6px;
+  margin-top: 5px;
+  color: blue;
+}
+
+#apple_store_icon
+{
+  font-size: 20px;
+  margin-left: 15px;
+  color: blue;
+}
+
+#twitter_icon
+{
+  font-size: 30px;
+  margin-top: 2px;
+  margin-left: 10px;
+  color: blue;
+}
+
+#main_footer
+{
+  font-size: 12px;
+  font-weight: bold;
+  position: unset;
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  background-color:aliceblue;
+  text-align: center;
+  border-top: 1px solid #FFAE00;
+}
+
+.logoText
+{
+  float: left;
+  font-size: small;
+  margin-top: 24px;
+  font-weight: 700;
+}
+
+.contactDetails
+{
+  text-decoration: none;
+  color: black;
+}
+
+.circle
+{
+  color: black;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #FFAE00;
+  float: left;
+}
+
+.contactText
+{
+  font-size: 10px;
+  float: left;
+  margin-left: 5px;
+}
+
+.contactEmail
+{
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 10px;
+  float: left;
+}
+
+.copyRightHeader
+{
+  font-size: 25px;
+  color: #FFAE00;
+}
+
+.actionButtons
+{
+  float: left;
+  text-align: end;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+.mainFooter
+{
+  width: 40%;
+  float: left;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .mainFooter{
+    width: 30%;
+  }
+}
+
+.signInBtn
+{
+  padding: 8px 20px;
+  border-radius: 8px;
+  margin-top: 2px;
+  background-color: #ff0000;
+  border: none;
+  color: white;
+}
+
+.signInBtn:hover {
+  background-color: #ff8080;
+  cursor: pointer;
+}
+
+.workArea{
+  overflow: auto;
+  /* height: calc(100vh - 139px); */
+  height: calc(100vh - 60px);
+  float: left;
+  width: 100%;
+}
+
+.imageBtn {
+  position: relative;
+  /* top: 65%;
+  left: 22%; */
+  transform: translate(-200%, -300%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ff0000;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .imageBtn{
+    top: 75%;
+    left: 22%;
+    transform :translate(-140%, -260%);
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .imageBtn{
+    transform :translate(-140%, -260%);
+  }
+}
+
+.imageBtn:hover {
+  background-color: #ff8080;
+  cursor: pointer;
+}
+
+.homePage
+{
+  text-align: center;
+  width: 100%;
+}
+
+.coverImage
+{
+  width: 80%;
+  margin: 0% 10%;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sliderCards{
+  height: 100%;
+  width : '90%';
+  background-color: white;
+}
+
+.sliderCardImage{
+  height: 40vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sliderTextDiv
+{
+  text-align: left;
+  padding: 10px;
+  width: 80%;
+  float: left;
+}
+
+@media screen and (max-width: 1300px) {
+  .sliderTextDiv{
+    width: 70%;
+ }
+}
+
+.cardIiconDiv{
+  text-align: right;
+  padding: 5px;
+  width: 10%;
+  float: left;
+}
+
+.cardHeartIcon
+{
+  font-size: x-large;
+  margin-top: 20px;
+}
+
+.cardInfoDiv{
+  height: 20vh;
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 30%;
+  margin-top: 20px;
+  margin: 1%;
+  margin-left: 2%;
+  float: left;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.cardList
+{
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%);
+  transition: 0.3s;
+  width: 30%;
+  margin-top: 20px;
+  margin: 1%;
+  margin-left: 2%;
+  float: left;
+  height: 250px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .card{
+     width: 100%;
+  }
+  .cardList{
+    width: 100%;
+ }
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(1,2,1,2);
+  cursor: pointer;  
+}
+
+.cardList:hover {
+  box-shadow: 0 8px 16px 0 rgba(1,2,1,2);
+  cursor: pointer;  
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.normalCardImg
+{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.searchDogDiv
+{
+  background-color: rgba(0,0,0,0.1);
+  height: 70px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.searchDropdown
+{
+  padding: 5px 15px;
+  width: 18%;
+  color: gray;
+  margin-top: 25px;
+  margin-left: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+  .searchDropdown{
+    padding: 5px 4px;
+    width: 10%;
+  }
+}
+
+.searchBtn
+{
+  padding: 7px 30px;
+  border-radius: 8px;
+  margin-top: 2px;
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  margin-left: 30px;
+}
+
+button.rec-dot{
+  display: none;
+}
+
+.rec.rec-arrow {
+  background-color: silver;
+}
+
+.dogDetailText
+{
+  margin-left: 60px;
+  text-align: justify;
+  margin-right: 60px;
+}
+
+.dogDetailsAboutHeader
+{
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 60px;
+}
+
+.dogDetailsMainDiv{
+  background-color: white;
+  height: 280px;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 5%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.addToWishListBtn
+{
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 2px;
+    background-color: #ff0000;
+    border: none;
+    color: white;
+}
+
+.wishlistIcon
+{
+  font-size: 13px;
+  margin-right: 7px;
+  margin-bottom: -3px;
+}
+
+.popupDialogWithNoClick
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.5);
+} 
+
+.messageDialog
+{
+  display: block;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  position: fixed;
+  right: 0px;
+  padding: 5px;
+  margin-top: 24%;
+  background-color: white;
+  border: 1px solid black;
+  z-index: 1;
+  height: 400px;
+  overflow: hidden;
+  overflow-x: hidden; 
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.confirmView{
+  display: block;
+  left: 50%;
+  transform: translate(-50%, -85%);
+  width: 290px;
+  position: fixed;
+  right: 0px;
+  padding: 5px;
+  margin-top: 25%;
+  background-color:white;
+  border: 1px solid black;
+  z-index: 1;
+  height: 100px;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+.popUpButtonSubmit
+{
+  width: 100px;
+  background-color: #ff0000;
+  color: black;
+  float: right;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 6px;
+  height: 35px;
+  margin-left: 15px;
+}
+
+.loginLeftDiv
+{
+  width: 48%;
+  float: left;
+  height: 380px;
+}
+
+.loginRightDiv
+{
+  width: 50%;
+  margin-left: 5px;
+  float: left;
+  height: 350px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.headerLabel
+{
+    text-align: end;
+    font-size: x-large;
+}
+
+.loginImage
+{
+  width: 95%;
+  height: 100%;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+#login_header_image
+{
+    float: unset;
+    margin-top: -40px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.test {
+    overflow: hidden;
+    text-align: center;
+    margin: 20px;
+}
+.test:before,
+.test:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.test:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.test:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.googleIcon
+{
+  height: 30px;
+  margin-left: 20px;
+}
+
+.textBoxes
+{
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.loginInBtn
+{
+  padding: 8px 20px;
+  border-radius: 10px;
+  margin-top: 2px;
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  width: 85%;
+}
+
+.signupLoginInBtn
+{
+  padding: 8px 20px;
+  border-radius: 10px;
+  margin-top: 2px;
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  width: 85%;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.userExistBtn
+{
+  padding: 8px 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background-color: white;
+  border: none;
+  color: #ff0000;
+  width: 85%;
+}
+
+.calenderClass
+{
+  margin-left: 20%;
+}
+
+.scheduleImage
+{
+  width: 50%;
+  height: 250px;
+  object-fit: unset;
+  border-radius: 71%;
+}
+
+#wishlistIcon
+{
+  color: red;
+  margin-bottom: -2px;
+  margin-right: 2px;
+}
+
+#userIdIcon
+{
+  font-size: 15px;
+  margin-bottom: -3px;
+  color: red;
+  margin-right: 1px;
+}
